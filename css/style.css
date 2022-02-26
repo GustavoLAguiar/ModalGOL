@@ -1,0 +1,145 @@
+.text-box{
+    margin-top:20px;
+    font-size: 11px;
+}
+
+.title-box{
+    color: #ff7020;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 27px;
+}
+
+.mb60 {
+    margin-bottom: 60px;
+}
+
+.modal-content{
+    height: 600px !important;
+}
+
+.close{
+    padding-right: 17px !important;
+    padding-top: 5px !important;
+    color: #ff7020;
+    font-size: 34px;
+    font-weight: 200;
+    opacity: 0.8;
+}
+
+a:focus, a:hover {
+    color: #ffffff;
+}
+
+.modal-content{
+    border-radius: 25px;
+}
+
+.modal-vertical-alignment {
+    display:table;
+    height: 100%;
+    width: 100%;
+    pointer-events:none;
+}
+.modal-vertical-align-center {
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events:none;
+}
+.modal-content {
+    width:inherit;
+    max-width:inherit;
+    height:inherit;
+    margin: 0 auto;
+    pointer-events: all;
+}
+
+.logo-booking{
+    position:absolute;
+    top:-26px;
+}
+
+.logo-smiles{
+    position:absolute;
+    top:-39px; right:18px;
+}
+
+.button-left{
+    color:white;
+    background-color: #ff7020;
+    display:block;
+    margin-top: 21px;
+    height: 40px;
+    width:150px;
+    font-size: 14px;
+    border: none;
+}
+
+.button-right{
+    color:white;
+    background-color: #ff7020;
+    display:block;
+    margin-top: 66px;
+    height: 40px;
+    width:150px;
+    font-size: 14px;
+    border: none;
+}
+
+.orange-line{
+    position: absolute;
+    top: 193px;
+    right: 405px;
+}
+
+.mid-line{
+    position: absolute;
+    top: 240px;
+    right: 448px;
+    height: 320px;
+}
+
+@media (max-width: 1000px){
+    .orange-line{
+        position: absolute;
+        top: 235px;
+        right: 254px;
+    }
+
+    .mid-line{
+        position: absolute;
+        top: 295px;
+        right: 298px;
+        height: 286px;
+    }
+}
+
+@media (max-width: 770px) {
+    .orange-line {
+        position: absolute;
+        top: 185px;
+        right: 317px;
+    }
+
+    .mid-line {
+        position: absolute;
+        top: 238px;
+        right: 364px;
+        height: 297px;
+    }
+}
+
+@media (max-width: 650px) {
+    .orange-line {
+        position: absolute;
+        top: 236px;
+        right: 267px;
+    }
+
+    .mid-line {
+        position: absolute;
+        top: 294px;
+        right: 308px;
+        height: 292px;
+    }
+}
